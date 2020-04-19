@@ -1,3 +1,116 @@
-body{
+body {
     font-family: 'Fira Sans', sans-serif;
+    color: #8D8D8D;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    border: none;
+    background: transparent;
+}
+
+.vh-dependent{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.be-static{
+position: static;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    font-weight: 700;
+    color: #151515;
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    background: #4737ff ;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 13px 26px;
+    display: inline;
+    border-radius: 0;
+    letter-spacing: 0.3em;
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+.btn:hover{
+    background: #3726F2;
+    color: #fff;
+}
+
+.header {
+
+}
+
+.nav {
+    padding-top: 59px;
+    margin-bottom: 127px;
+}
+
+.logo {}
+
+.search {
+    background: transparent;
+}
+
+.menu {
+
+}
+
+menu {
+
+}
+.offer-cont__title{
+    font-size: 60px;
+    letter-spacing: -0.01em;
+    line-height: 1.2em;
+}
+.offer-cont__text{
+margin: 30px 0 56px;
+}
+
+.offer-cont__btn{
+
+}
+
+.hero{
+    background: url(../img/img1.jpg) no-repeat right top ;
+    background-size: 80% 100%;
+    width: 55%;
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    top: 142px;
+}
+
+.video{
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+    width: 40%;
+    height: 30%;
+    display: block;
+    background: url('../img/video.jpg') no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video:after{
+    content:'';
+    display: block;
+    background: url(../img/play.svg);
+    width: 65px;
+    height: 65px;
+
+
+    
 }
