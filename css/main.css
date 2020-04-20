@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     padding: 0px;
 }
-.btn{
+.btn {
     background: #4737ff ;
     color: #fff;
     text-transform: uppercase;
@@ -41,13 +41,13 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.5s ease;
 
 }
-.btn:hover{
+.btn:hover {
     background: #3726F2;
     color: #fff;
 }
 
 .header {
-
+    height: 95vh;
 }
 
 .nav {
@@ -55,33 +55,32 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 127px;
 }
 
-.logo {}
+.logo {
+
+}
 
 .search {
-    background: transparent;
+
 }
 
 .menu {
 
 }
 
-menu {
-
-}
-.offer-cont__title{
+.offer-cont__title {
     font-size: 60px;
     letter-spacing: -0.01em;
     line-height: 1.2em;
 }
-.offer-cont__text{
+.offer-cont__text {
 margin: 30px 0 56px;
 }
 
-.offer-cont__btn{
+.offer-cont__btn {
 
 }
 
-.hero{
+.hero {
     background: url(../img/img1.jpg) no-repeat right top ;
     background-size: 80% 100%;
     width: 55%;
@@ -91,7 +90,7 @@ margin: 30px 0 56px;
     top: 142px;
 }
 
-.video{
+.video {
     position: absolute;
     left: 0;
     bottom: 30%;
@@ -104,13 +103,43 @@ margin: 30px 0 56px;
     align-items: center;
 }
 
-.video:after{
+.video:after {
     content:'';
     display: block;
     background: url(../img/play.svg);
     width: 65px;
     height: 65px;
+}
 
+.problems {
+    padding-top: 137px;
+}
+.about {
 
-    
+}
+
+.about__title {
+    font-size: 38px;
+    margin-bottom: 30px;
+
+}
+
+.about__text {
+
+}
+
+.about__author {
+background: url('../img/author.jpg') no-repeat left center;
+padding: 7px 0 7px 96px;
+margin-top: 61px;
+
+}
+
+.about__name {
+    font-size: 22px;
+
+}
+
+.about__dop{
+    margin-bottom: 0;
 }
