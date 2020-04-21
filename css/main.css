@@ -10,6 +10,12 @@ button {
     background: transparent;
 }
 
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
 .vh-dependent{
     height: 35vh;
     display: flex;
@@ -27,6 +33,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     padding: 0px;
 }
+
+h2 {
+    font-size: 38px;
+}
+
 .btn {
     background: #4737ff ;
     color: #fff;
@@ -119,7 +130,6 @@ margin: 30px 0 56px;
 }
 
 .about__title {
-    font-size: 38px;
     margin-bottom: 30px;
 
 }
@@ -142,4 +152,33 @@ margin-top: 61px;
 
 .about__dop{
     margin-bottom: 0;
+}
+
+.services{
+    padding-top: 142px;
+}
+
+.section-title__label {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.25em;
+    color: #8f8f8f;
+    margin-bottom: 40px;
+}
+
+.section-title__heading { 
+
+}
+
+.serv-list {
+    color: #8D8D8D;
+    margin-top: 67px;
+}
+
+.serv-list__item {
+margin-bottom: 20px;
+}
+
+.serv-list_left {
+    margin-left: 37px;
 }
