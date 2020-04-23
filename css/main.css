@@ -182,3 +182,20 @@ margin-bottom: 20px;
 .serv-list_left {
     margin-left: 37px;
 }
+
+.owl-carousel .item, .owl-item {
+    width: 825px !important;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: left;
+
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    margin: 0;
+}
+
+.owl-prev {
+    margin-right: 20px !important;
+}
