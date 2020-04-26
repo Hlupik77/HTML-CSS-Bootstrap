@@ -183,8 +183,13 @@ margin-bottom: 20px;
     margin-left: 37px;
 }
 
+.owl-carousel {
+    margin-top: 99px;
+}
+
 .owl-carousel .item, .owl-item {
     width: 825px !important;
+    position: relative;
 }
 
 .owl-theme .owl-dots, .owl-theme .owl-nav {
@@ -196,6 +201,23 @@ margin-bottom: 20px;
     margin: 0;
 }
 
-.owl-prev {
-    margin-right: 20px !important;
+.owl-nav {
+    margin-top: 50px !important;
+}
+
+.owl-carousel .owl-prev {
+    margin-right: 25px !important;
+}
+
+.owl-carousel__play{
+    display: block;
+    background: url('../img/play.svg');
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    cursor: pointer;
 }
