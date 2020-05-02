@@ -187,11 +187,11 @@ margin-bottom: 20px;
     margin-left: 37px;
 }
 
-.owl-carousel {
+.works-carousel {
     margin-top: 99px;
 }
 
-.owl-carousel .item, .owl-item {
+.works-carousel .item, .works-carousel .owl-item {
     width: 825px !important;
     position: relative;
 }
@@ -205,11 +205,11 @@ margin-bottom: 20px;
     margin: 0;
 }
 
-.owl-nav {
+.works-carousel .owl-nav {
     margin-top: 50px !important;
 }
 
-.owl-carousel .owl-prev {
+.works-carousel .owl-prev {
     margin-right: 25px !important;
 }
 
@@ -372,3 +372,33 @@ margin-bottom: 20px;
   .cont-photo{
       display: block;
   }
+
+  .contributor-carousel .owl-nav {
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+  }
+
+  .contributor-carousel .owl-prev{
+    margin-right: 25px;
+  }
+
+  .clients{
+    padding-top: 278px;
+  }
+
+  .clients-row {
+      margin-top: 127px;
+  }
+
+  .footer {
+      height: 240px;
+      background: #515151;
+      margin-top: 136px;
+    }
+
+.footer-logo {
+    margin-top: 109px;
+    margin-bottom: 109px;
+} 
+
